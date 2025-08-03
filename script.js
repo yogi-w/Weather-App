@@ -36,6 +36,7 @@ async function checkWeather(city){
     errorMsg.style.display='block'
     errorMsg.innerHTML = 'Sorry, Location not found!!'
 
+    temperature.innerHTML = 0;
     weatherImg.src = '404.png'
     windSpeed.innerHTML = '0' 
     humdity.innerHTML = '0'
