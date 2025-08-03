@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family
+    :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+html, body{
+    width: 100%;
+    min-height: 100%;
+
+    background-color: #1e2644;
+ 
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    
+    padding: 10px;
+    
+    width: fit-content;
+    padding: 0 20px;
+    border-radius: 10px;
+    background:#77CDF2
+}
+.header{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* border: 2px solid red; */
+    
+    
+}
+
+.header button{
+    background-color: #e6f5fb;
+    font-size: 1.5rem;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    padding: 7px;
+   
+
+}
+.header button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#inputBox{
+     padding: 10px;
+    
+    border-radius: 10px;
+background-color: #e6f5fb;
+    font-size: 1.1rem;
+    height: min-content;
+    /* border: 2px solid black; */
+
+    
+}
+#inputBox::placeholder{
+    color: black;
+}
+.weatherImg{
+    height: 200px;
+     /* border: 2px solid black; */
+     object-fit: cover;
+     
+    
+}
+.weather-body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     /* border: 2px solid black; */
+    margin: 10px 0;
+    display: none;
+}
+#errorMsg{
+    margin-bottom: 20px;
+    display: none;
+}
+.temperature{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0 0 0;
+    font-weight: 700;
+}
+.discription{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(37, 37, 37);
+}
+
+.weather-Details{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.humidity, .wind{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    padding: 15px;
+
+}
+.text span{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.text p{
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+}
+
+.humidity i{
+    font-size: 2.3rem;
+}
+.wind i{
+    font-size: 2.3rem;
+}
+
